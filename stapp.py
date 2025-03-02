@@ -4,7 +4,7 @@ from eventregistry import EventRegistry, QueryArticlesIter, QueryItems
 from transformers import pipeline
 
 # Initialize Event Registry with your API key
-event_api_key=st.secrets[API_KEY]
+event_api_key=st.secrets["API_KEY"]
 er = EventRegistry(apiKey=event_api_key)
 
 summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
