@@ -2,3 +2,8 @@ streamlit
 eventregistry
 transformers
 torch
+PyMuPDF
+rich
+markdown-it-py
+pygments
+mdurl
